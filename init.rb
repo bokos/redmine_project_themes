@@ -42,7 +42,6 @@
 #  - correction of French accents
 #
 
-require 'redmine'
 
 Redmine::Plugin.register :redmine_project_themes do
   name 'Redmine Project Themes'
@@ -64,5 +63,4 @@ Redmine::Plugin.register :redmine_project_themes do
   end
 end
 
-require 'redmine_project_themes'
 
